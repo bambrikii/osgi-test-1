@@ -81,12 +81,22 @@
 			<artifactId>catalina.start.osgi</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-
+		<!--<dependency>-->
+		<!--<groupId>org.apache.catalina</groupId>-->
+		<!--<artifactId>catalina.osgi</artifactId>-->
+		<!--<version>7.0.26</version>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>org.apache.catalina</groupId>
 			<artifactId>com.springsource.org.apache.catalina</artifactId>
 			<version>7.0.26</version>
 		</dependency>
+
+		<!--<dependency>-->
+		<!--<groupId>org.jbundle.util.osgi.wrapped</groupId>-->
+		<!--<artifactId>org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets</artifactId>-->
+		<!--<version>7.0.23</version>-->
+		<!--</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.osgi</groupId>
@@ -159,12 +169,6 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.jbundle.util.osgi.wrapped</groupId>
-			<artifactId>org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets</artifactId>
-			<version>7.0.23</version>
 		</dependency>
 
 		<dependency>
